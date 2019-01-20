@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   # resources :todos
   get 'todos', to: 'todos#index'
-  
+  # Swagger doc API
+  get '/swagger' => redirect('/apidocs/api')
 end

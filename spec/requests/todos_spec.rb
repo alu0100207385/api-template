@@ -16,7 +16,7 @@ RSpec.describe 'Todos API', type: :request do
     end
 
     it 'returns todos body' do
-      expect(response.body).eql?("Hi there")
+      expect(response.body).eql?('{"response":"Hi there"}')
     end
   end
 
