@@ -7,7 +7,4 @@ Basic API rails project with swagger.
 $ rails s
 
 TODO
-
-* Basic controller
-* Add basic tests
 * Implement swagger
